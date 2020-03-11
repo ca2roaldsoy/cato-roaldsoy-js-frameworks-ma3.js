@@ -1,6 +1,6 @@
 import React from 'react';
 
-function homeContent(props) {
+function HomeContent(props) {
     
     return (
     
@@ -8,4 +8,4 @@ function homeContent(props) {
     )
 }
 
-export default homeContent;
+export default HomeContent;

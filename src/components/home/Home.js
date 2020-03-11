@@ -1,18 +1,18 @@
 import React from 'react';
 import Heading from '../Heading.js';
-import homeContent from './HomeContent.js';
+import HomeContent from './HomeContent.js';
 
 function Home() {
     
     return (
         <div>
             <Heading title="Pokemon" />
-            <homeContent>
+            <HomeContent>
 
                 Pokemon!<br />
                 Gotta catch em' all!
 
-            </homeContent>
+            </HomeContent>
         </div>
     )
 }
