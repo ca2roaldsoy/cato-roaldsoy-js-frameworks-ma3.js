@@ -20,7 +20,7 @@ function Layout () {
            
             <Navbar bg="dark" variant="dark" expand="lg" role="navigation">
               <Navbar.Brand href="#home">POKEMASTER</Navbar.Brand>
-               <Navbar.Toggle aria-controls="basic-navbar-nav" />
+               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                    <Nav as="ul" className="mr-auto">
                        
