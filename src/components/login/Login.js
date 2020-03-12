@@ -1,5 +1,5 @@
 import React from 'react';
-import Heading from '../Heading.js';
+import Heading from '../pageTitle/Heading.js';
 import LoginForm from './LoginForm.js';
 
 
