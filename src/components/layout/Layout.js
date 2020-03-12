@@ -19,14 +19,13 @@ function Layout () {
         <Router>
            
             <Navbar bg="dark" variant="dark" expand="lg" role="navigation">
-              <Navbar.Brand href="#home">POKEMASTER</Navbar.Brand>
+              <Navbar.Brand><NavLink to="/" exact>POKEMASTER</NavLink></Navbar.Brand>
                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                    <Nav as="ul" className="mr-auto">
-                       
-                            <li className="px-2"><NavLink to="/" exact> Home </NavLink></li>
-                            <li className="px-2"><NavLink to="/news" > News </NavLink></li>
-                            <li className="px-2"><NavLink to="/login" > Login </NavLink></li>
+                        <li><NavLink to="/" exact className="nav-link"> Home </NavLink></li>
+                        <li><NavLink to="/news" className="nav-link"> News </NavLink></li>
+                        <li><NavLink to="/login" className="nav-link"> Login </NavLink></li>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
